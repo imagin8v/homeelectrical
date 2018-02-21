@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <title>Capslearn</title>
+ <link rel="shortcut icon" href="./images/logo.png" type="image/png"/>
+ <meta charset="UTF-8"/>
+ <meta name="keywords" content=""/>
+ <meta name="description" content=""/>
+ <meta name="author" content="Keshav Mittal"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="w3.css">
+ <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+
+  <div class="top card-8 gradient2">
+    <ul class="navbar left-align">
+    <!-- Bars code for navigation in mobile phones -->
+     <li class="hide-medium hide-large opennav right" style="margin:10px 20px">
+      <a href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="font-size:48px; color:pink"></i></a>
+     </li>
+    <!-- Ends here -->
+	
+    <!-- Navigation bar code starts here -->
+     <li class="left">
+         <a href="#index" class="padding-xxlarge" style="font-family: 'Lato', sans-serif; letter-spacing:2px; font-size:13px; color:white">HOME ELECTRICAL</a>
+     </li>
+     <li class="hide-small right">
+       <a href="#contact" class="padding-xxlarge" style="color:white; font-family: 'Lato', sans-serif; letter-spacing:2px; font-size:13px">CONTACT</a>
+     </li>
+     <li class="hide-small right">
+       <a href="#place" class="padding-xxlarge" style="color:white; font-family: 'Lato', sans-serif; letter-spacing:2px; font-size:13px">PLACE</a>
+     </li>
+     <li class="hide-small right">
+       <a href="#brands" class="padding-xxlarge" style="color:white; font-family: 'Lato', sans-serif; letter-spacing:2px; font-size:13px">BRANDS</a>
+     </li>
+     <li class="hide-small right">
+       <a href="#services" class="padding-xxlarge" style="color:white; font-family: 'Lato', sans-serif; letter-spacing:2px; font-size:13px">DEALS IN</a>
+     </li>
+    </ul>
+   </div>
+   
+   <!-- Navbar on small screens -->
+   <div id="navDemo" class="hide hide-large hide-medium top" style="margin-top:68px; color:#4776E6">
+    <ul class="navbar left-align white">
+     <li><a class="padding-xxlarge" href="about.html">CONTACT</a></li>
+	 <li><a class="padding-xxlarge" href="explore.html">PLACE</a></li>
+     <li><a class="padding-xxlarge" href="explore.html">BRANDS</a></li>
+     <li><a class="padding-xxlarge" href="explore.html">PLACE</a></li>
+    </ul>
+   </div>
+   <!-- Header begins here -->
+   <header class="display-container center gradient2" style="margin-top:66px; min-height:500px;">
+   
+    <img id="index" class="hide-small center" src="./images/main.png" style="width:100%; min-height:500px"/>
+	<img class="hide-medium hide-large" src="./images/main2.png" style="width:100%; min-height:500px"/>
+	<div class="display-middle center" style="width:100%">
+    <h1 class="hide-small" style="color:#ffffff; font-family: 'Georgia',sans-serif"> Power Up Your Home, </h1>
+    <h2 class="hide-small" style="color:#ffffff;font-family: 'Georgia',sans-serif"> With Accessibility </h2>
+    <h3 class="hide-medium hide-large" style="color:#ffffff;font-family: 'Georgia',sans-serif"> Power Up Your Home, </h3>
+    <h4 class="hide-medium hide-large" style="color:#ffffff;font-family: 'Georgia',sans-serif"> With Accessibility </h4>
+	</div>
+	
+   </header>
+   <!-- first div starts here -->
+   <div id="services" class="container content center padding-78" style="max-width:600px;">
+    <hr class="border-yellow" style="width:20%; margin:auto"/>
+    <h2 style="color:#383838; letter-spacing:2px; font-weight:300">EVERYTHING YOU NEED</h2>
+	<p>
+     Check out the range of sevices we deal in to cater your need.
+	</p>
+   </div> 
+   <!-- Four circles goes here -->
+   <div class="container center content" style="max-width: 100%; padding-bottom: 32px">
+   <div class="row">
+   
+    <div class="container col m12 l3 center">
+	 <img src="./images/paint.png" style="width:100%; max-width:200px; min-height:100px"/>
+    <h3 style="font-weight:300"> PAINTS</h3>
+	 <p>Choose from top brands the colors you want to spread.</p>
+	</div>
+	
+    <div class="container col m12 l3 center">
+	  <img src="./images/hardware.png" style="width:100%; max-width:200px; min-height:100px"/>
+     <h3 style="font-weight:300"> HARDWARE</h3>
+	 <p>Revamping your home, select best hardwares you need.</p>
+	</div>
+       
+    <div class="container col m12 l3 center">
+	  <img src="./images/sanitary.png" style="width:100%; max-width:200px; min-height:100px"/>
+        <h3 style="font-weight:300"> SANITARY WARE</h3>
+	 <p>Influence the guests by installing beautiful sanitary wares.</p>
+	</div>
+       
+    <div class="container col m12 l3 center">
+	  <img src="./images/electrical.png" style="width:100%; max-width:200px; min-height:100px"/>
+    <h3 style="font-weight:300"> ELECTRICAL</h3>
+	 <p>Light up your home with every electrical item you want.</p>
+	</div>
+   </div>
+   </div>
+   <!-- second div is here -->
+   <div class="container center gradient padding-78" style="width:100%;">
+    <h2 style="font-weight:300">Best Price, Delivery Service</h2>
+    <h3 style="font-weight:300">Hassle Free Buying</h3>  
+    <img src="./images/van.png" style="width:100%; max-width:300px; min-height:100px; padding-top: 64px"/>
+   </div>
+   <!-- third div is here -->
+   <div id="brands" class="container center padding-78">
+   <div class="row">
+    <hr class="border-yellow" style="width:20%; margin:auto"/>
+	<h2 style="color:#383838; letter-spacing:2px; font-weight:300">BRANDS WE DEAL IN</h2>
+   <div class="container col m12 l4 center padding-large">
+	<img src="./images/astral.png" style="width:100%; max-width:300px; min-height:100px;"/>
+   </div>
+   <div class="container col m12 l4 center padding-large">
+	<img src="./images/asian.png" style="width:100%; max-width:400px; min-height:100px;"/>
+   </div>
+   <div class="container col m12 l4 center padding-large">
+	<img src="./images/jaquar.png" style="width:100%; max-width:300px; min-height:100px;"/>
+   </div>
+   </div>
+   <div class="row">
+   <div class="container col m12 l4 center">
+	<img src="./images/havells.png" style="width:100%; max-width:300px; min-height:100px;"/>
+   </div>
+   <div class="container col m12 l4 center ">
+	<img src="./images/godrej.png" style="width:100%; max-width:300px; min-height:100px;"/>
+   </div>
+   <div class="container col m12 l4 center ">
+	<img src="./images/supreme.png" style="width:100%; max-width:300px; min-height:100px;"/>
+   </div>
+   </div>
+   <h3 style="color:#383838; letter-spacing:2px; font-weight:300">and more</h3>
+   </div>
+   <!-- fourth div is here -->
+   <div id="place" class="container padding-100" style="background-color: #f8f9fa">
+   <div class="row">
+    <div class="container col m12 l6">
+	 <div class="container center">
+	  <img src="./images/location.png" style="width:100%; max-width:300px; min-height:100px"/>
+	 </div>
+    </div>
+	<div class="container col m12 l6 padding-large">
+     <h2 style="font-weight:300">Where To Find Us</h2>
+	 <hr class="border-khaki" style="width:20%;"/>
+	 <p class="justify"> 
+         100/28, Garg Tower,<br>
+      Rajapur, Main Market,<br>
+      (Behind Police Station) Sector-9<br>
+      Rohini, Delhi-85
+	 </p>
+	</div>
+   </div>
+   </div>
+   <!-- fifth div goes here -->
+   <div id="contact" class="container content center padding-48" style="max-width:600px;">
+    <hr class="border-yellow" style="width:20%; margin:auto"/>
+    <h2 style="color:#383838; letter-spacing:2px; font-weight:300">CONTACT US</h2>
+   </div>
+   <div class="container center content" style="max-width: 80%; padding-bottom: 32px">
+   <div class="row">
+   
+    <div class="container col m12 l3 center">
+	 <img src="./images/person.png" style="width:100%; max-width:150px; min-height:100px"/>
+	 <p>Sushil Garg</p>
+	</div>
+	
+    <div class="container col m12 l3 center">
+	  <img src="./images/telephone.png" style="width:100%; max-width:150px; min-height:100px"/>
+	 <p>011-45679862</p>
+	</div>
+       
+    <div class="container col m12 l3 center">
+	  <img src="./images/mobile.png" style="width:100%; max-width:150px; min-height:100px"/>
+    
+	 <p>9312052312</p>
+	</div>
+       
+    <div class="container col m12 l3 center">
+	  <img src="./images/mail.png" style="width:100%; max-width:150px; min-height:100px"/>
+	 <p>skghei@yahoo.in</p>
+	</div>
+   </div>
+   </div>
+   
+   
+   <footer class="container center" style="background-color:#525c65">
+	  <p style="font-size:13px; letter-spacing: 2px; color:#ffffff">&#169HOME ELECTRICAL (INDIA) 2018</p>
+	  <p style="font-size:13px; letter-spacing: 2px;color:#ffffff">All Rights Reserved.</p>
+   </footer>
+    
+   
+  <!-- Javascript starts here -->
+<script>
+ function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+        x.className += " show";
+    } else { 
+        x.className = x.className.replace(" show", "");
+    }
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105140652-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+   
+</body>
+</html>
